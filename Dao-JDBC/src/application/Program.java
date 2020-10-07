@@ -18,7 +18,6 @@ public class Program {
 
 		System.out.println("=== TEST 1: seller findById =====");
 		Seller seller = sellerDao.findById(3);
-
 		System.out.println(seller);
 
 		System.out.println("\n=== TEST 2: seller findByDepartment =====");
@@ -46,7 +45,7 @@ public class Program {
 		System.out.println("Update Completed!");
 
 		System.out.println("\n=== TEST 6: seller delete =====");
-		System.out.print("Enter id for delete teste: ");
+		System.out.print("Enter id for delete test: ");
 		Integer idDelete = sc.nextInt();
 		sellerDao.deleteById(idDelete);
 		System.out.println("Delete Completed!");

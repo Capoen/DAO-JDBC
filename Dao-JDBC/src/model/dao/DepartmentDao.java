@@ -6,9 +6,9 @@ import model.entities.Department;
 
 public interface DepartmentDao {
 
-	void insert(Department obj);
+	void insert(Department department);
 
-	void update(Department onj);
+	void update(Department department);
 
 	void deleteById(Integer id);
 
